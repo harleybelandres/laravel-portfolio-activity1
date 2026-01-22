@@ -1,8 +1,8 @@
 # My Laravel Portfolio
 ## Student Information
-- **Name:** [Your Full Name]
+- **Name:** [John Harley Paciente Belandres]
 - **Course:** Bachelor of Science in Information Technology
-- **University:** [Your University Name]
+- **University:** [Central Mindanao University]
 ## Project Description
 This is my first Laravel application created for Activity 1. It's a personal
 portfolio website that demonstrates my understanding of Laravel fundamentals
@@ -12,17 +12,18 @@ including routing, views, and Blade templates.
 - About page displaying my personal information
 - Projects page listing my sample projects
 - Contact page with my contact information
+- Hobbies page with the list of my hobbies
 - Responsive navigation menu
 - Clean and professional design
 ## Technologies Used
-- Laravel 10.x
+- Laravel 12.x
 - PHP 8.1+
 - Blade Template Engine
 - HTML5 & CSS3
 ## Installation
 1. Clone this repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/laravel-portfolio-activity1.git
+git clone https://github.com/harleybelandres/laravel-portfolio-activity1.git
 ```
 2. Navigate to project directory
 ```bash
