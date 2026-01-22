@@ -1,5 +1,6 @@
 @extends('layout')
 @section('title', 'Home - My Portfolio')
+@section('bg-color', '#e3f2fd')
 @section('content')
 <h1>Welcome to My Portfolio</h1>
 <p style="font-size: 1.2rem; color: #555; margin-top: 1rem;">

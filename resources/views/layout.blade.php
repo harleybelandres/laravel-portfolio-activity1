@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>@yield('title', 'My Portfolio')</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <style>
 * {
@@ -15,10 +16,10 @@ box-sizing: border-box;
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 line-height: 1.6;
-background: #f4f4f4;
+background: @yield('bg-color', '#f4f4f4');
 }
 nav {
-background: #333;
+background: #057005;
 color: white;
 padding: 1rem 2rem;
 }
@@ -31,6 +32,7 @@ nav a {
 color: white;
 text-decoration: none;
 font-weight: bold;
+border-bottom: 2px solid black;
 }
 nav a:hover {
 
@@ -51,7 +53,7 @@ margin-bottom: 1rem;
 footer {
 text-align: center;
 padding: 2rem;
-background: #333;
+background: #057005;
 color: white;
 margin-top: 2rem;
 }
@@ -60,10 +62,12 @@ margin-top: 2rem;
 <body>
 <nav>
 <ul>
+<h2>My Portfolio</h2>
 <li><a href="{{ route('home') }}">Home</a></li>
 <li><a href="{{ route('about') }}">About</a></li>
 <li><a href="{{ route('projects') }}">Projects</a></li>
 <li><a href="{{ route('contact') }}">Contact</a></li>
+<li><a href="{{ route('hobbies') }}">Hobbies</a></li>
 </ul>
 </nav>
 <div class="container">

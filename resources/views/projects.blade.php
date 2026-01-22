@@ -1,7 +1,7 @@
 @extends('layout')
 @section('title', 'My Projects')
 @section('content')
-<h1>My Projects</h1>
+<h1><i class="fas fa-briefcase"></i> My Projects</h1>
 <div style="margin-top: 2rem;">
 
 @foreach($projects as $project)

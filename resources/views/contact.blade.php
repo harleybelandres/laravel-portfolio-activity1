@@ -1,5 +1,6 @@
 @extends('layout')
 @section('title', 'Contact Me')
+@section('bg-color', '#fff3e0')
 @section('content')
 <h1>Contact Me</h1>
 <div style="margin-top: 2rem;">
@@ -14,6 +15,9 @@ Feel free to reach out to me through any of the following:
 </p>
 <p>
 <strong> Phone:</strong> {{ $phone }}
+</p>
+<p>
+<strong> Facebook:</strong> {{ $Facebook }}
 </p>
 </div>
 </div>
